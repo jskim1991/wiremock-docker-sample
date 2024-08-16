@@ -1,0 +1,25 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/v1/todos"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+        {
+            "id": 1,
+            "title": "Learn React",
+            "completed": false
+        },
+        {
+            "id": 2,
+            "title": "Learn Kotlin",
+            "completed": true
+        }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+
+services:
+  wiremock:
+    image: wiremock/wiremock
+    container_name: wiremock
+    volumes:
+      - ./mappings:/home/wiremock/mappings
+    ports:
+      - "8080:8080"
